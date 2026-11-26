@@ -1,0 +1,15 @@
+{
+  "name": "CourtCompare – Le Comparateur Matériel Tennis",
+  "short_name": "CourtCompare",
+  "description": "Compare les millésimes de raquettes et chaussures de tennis et trouve le meilleur prix.",
+  "lang": "fr",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F8FAFC",
+  "theme_color": "#16A34A",
+  "icons": [
+    { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
