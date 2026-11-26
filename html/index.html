@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>CourtCompare – Comparateur matériel tennis : millésimes et meilleur prix</title>
+<meta name="description" content="Compare les millésimes de tes raquettes et chaussures de tennis (Head, Babolat, Wilson, Asics) et trouve le meilleur prix parmi les boutiques spécialisées.">
+<link rel="canonical" href="/">
+<meta name="theme-color" content="#16A34A">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icons/icon.svg">
+<meta property="og:title" content="CourtCompare – Compare les millésimes. Paye le juste prix.">
+<meta property="og:description" content="Comparateur de raquettes et chaussures de tennis : différences entre les années et meilleures offres.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<main id="main">
+  <section class="hero"><div class="wrap">
+    <h1>Compare les millésimes.<br><em>Paye le juste prix.</em></h1>
+    <p class="lead">Raquettes et chaussures de tennis : les vraies différences entre les années, et la meilleure offre du moment chez les boutiques spécialisées.</p>
+    <div class="hero-cta">
+      <a class="btn btn-primary" id="cta-finder" href="trouve-ta-raquette.html">Trouve ta raquette →</a>
+      <button class="btn" id="open-quiz" type="button">Quiz express (3 questions)</button>
+    </div>
+  </div></section>
+
+  <section class="wrap" aria-labelledby="cat-title">
+    <h2 id="cat-title" class="muted" style="font-size:.85rem;text-transform:uppercase;letter-spacing:.08em">Catalogue</h2>
+    <div class="toolbar">
+      <input class="search" id="search" type="search" placeholder="Rechercher un modèle, une marque…" aria-label="Rechercher un produit" autocomplete="off">
+      <div class="tabs" id="tabs" role="group" aria-label="Catégories"></div>
+      <div class="chiprow"><span class="chip-label">Marque</span><div class="chips" id="f-brand"></div></div>
+      <div class="chiprow"><span class="chip-label">Poids</span><div class="chips" id="f-weight"></div></div>
+      <div class="chiprow"><span class="chip-label">Surface</span><div class="chips" id="f-surface"></div></div>
+    </div>
+    <p class="muted" id="count" aria-live="polite"></p>
+    <div class="grid" id="grid"></div>
+  </section>
+</main>
+
+<dialog id="quiz" aria-labelledby="quiz-title">
+  <div class="mhead"><strong id="quiz-title">Quel matériel pour mon jeu ?</strong><button class="x" id="quiz-close" aria-label="Fermer" type="button">×</button></div>
+  <div class="mbody" id="quiz-body"></div>
+</dialog>
+
+<script src="js/common.js"></script>
+<script src="js/home.js"></script>
+</body>
+</html>
