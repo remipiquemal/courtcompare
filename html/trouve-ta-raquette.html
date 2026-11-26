@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Trouve ta raquette de tennis : recommandation selon ton profil | CourtCompare</title>
+<meta name="description" content="Indique ton profil physique, ton niveau et ce que tu recherches (ou non) : notre algorithme te propose les raquettes de tennis les plus adaptées et le meilleur prix.">
+<meta name="theme-color" content="#16A34A">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icons/icon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<main id="main" class="wrap">
+  <section class="hero" style="padding-bottom:20px">
+    <h1 style="font-size:clamp(1.9rem,5vw,2.8rem)">Trouve ta raquette</h1>
+    <p class="lead">Réponds à ce que tu sais. Tu ne sais pas ? Laisse « Je ne sais pas » : l'algorithme s'adapte.</p>
+  </section>
+
+  <form id="finder" class="fwrap" novalidate>
+    <fieldset class="card fstep" style="border:1px solid var(--line)"><legend class="sr" style="position:absolute;left:-999px">Profil physique</legend>
+      <h2>1. Ton profil physique</h2><p class="hint">Optionnel : ça nous aide à choisir le bon poids.</p>
+      <div class="fields">
+        <label>Taille (cm)<input type="number" id="f-height" inputmode="numeric" min="120" max="220" placeholder="ex. 178"></label>
+        <label>Poids (kg)<input type="number" id="f-kg" inputmode="numeric" min="30" max="150" placeholder="ex. 72"></label>
+        <label>Âge<input type="number" id="f-age" inputmode="numeric" min="8" max="90" placeholder="ex. 32"></label>
+      </div>
+      <h3 style="margin:16px 0 8px;font-size:.95rem">Ta force physique</h3>
+      <div class="opts" data-k="strength"></div>
+      <h3 style="margin:16px 0 8px;font-size:.95rem">Douleurs au bras / coude (épicondylite…) ?</h3>
+      <div class="opts" data-k="armPain"></div>
+    </fieldset>
+
+    <fieldset class="card fstep" style="border:1px solid var(--line)"><legend style="position:absolute;left:-999px">Jeu</legend>
+      <h2>2. Ton jeu</h2>
+      <h3 style="margin:10px 0 8px;font-size:.95rem">Niveau</h3><div class="opts" data-k="level"></div>
+      <h3 style="margin:16px 0 8px;font-size:.95rem">Style de jeu</h3><div class="opts" data-k="style"></div>
+    </fieldset>
+
+    <fieldset class="card fstep" style="border:1px solid var(--line)"><legend style="position:absolute;left:-999px">Envies</legend>
+      <h2>3. Ce que tu aimerais</h2>
+      <h3 style="margin:10px 0 8px;font-size:.95rem">Priorité</h3><div class="opts" data-k="priority"></div>
+      <h3 style="margin:16px 0 8px;font-size:.95rem">Poids de raquette préféré</h3><div class="opts" data-k="weightPref"></div>
+      <h3 style="margin:16px 0 8px;font-size:.95rem">Budget maximum</h3><div class="opts" data-k="budget"></div>
+    </fieldset>
+
+    <div class="sticky-actions">
+      <button class="btn btn-primary" type="submit" id="go">Voir mes raquettes →</button>
+      <button class="btn" type="button" id="reset">Réinitialiser</button>
+    </div>
+  </form>
+
+  <section id="results-section" hidden aria-live="polite">
+    <h2 id="results-title">Tes raquettes recommandées</h2>
+    <p class="muted" id="profile-sum"></p>
+    <div class="results" id="results"></div>
+    <p class="muted" style="margin-top:14px">Le score combine ton profil (poids, rigidité, swingweight) et les notes de jouabilité de chaque millésime. C'est une aide à la décision : idéalement, teste avant d'acheter.</p>
+  </section>
+</main>
+<script src="js/common.js"></script>
+<script src="js/finder.js"></script>
+</body>
+</html>
