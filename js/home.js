@@ -17,7 +17,7 @@ CC.load().then(products => {
     });
   };
   chipSet('f-brand', [...new Set(products.map(p => p.brand))], 'brand');
-  chipSet('f-weight', [285, 300, 305], 'weight', w => w + ' g');
+  chipSet('f-weight', [285, 295, 300, 305], 'weight', w => w + ' g');
   chipSet('f-surface', ['Toutes surfaces', 'Terre battue'], 'surface');
 
   const tabs = [['all', 'Toutes'], ['raquettes', 'Raquettes'], ['chaussures', 'Chaussures']];
