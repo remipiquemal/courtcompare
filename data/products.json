@@ -1,4 +1,15 @@
 {
+  "meta": {
+    "updatedAt": "2026-11-26",
+    "currency": "EUR",
+    "specsStandard": "Poids non cordé (constructeur) ; RA et Swingweight mesurés cordés (labo Tennis Warehouse).",
+    "sources": [
+      "Tennis Warehouse / Tennis Warehouse Europe",
+      "Tennis-Point FR",
+      "Extreme Tennis FR",
+      "Decathlon FR"
+    ]
+  },
   "products": [
     {
       "slug": "head-speed-mp",
@@ -6,30 +17,62 @@
       "name": "Speed MP",
       "category": "raquettes",
       "surfaces": [],
-      "tagline": "La polyvalente des joueurs offensifs complets",
+      "tagline": "La polyvalente de référence, maniable et stable",
       "accent": "#16A34A",
-      "seoDescription": "Head Speed MP : comparatif 2022 Auxetic, 2024 Auxetic 2.0 et 2026. Poids, rigidité RA, swingweight et meilleur prix du moment.",
+      "seoDescription": "Head Speed MP : comparatif 2022 Auxetic, 2024 Auxetic 2.0 et 2026 Hy-Bor. Poids, rigidité RA, swingweight et meilleur prix du moment.",
       "verdict": {
-        "title": "Pourquoi prendre la 2022 plutôt que la 2024 ?",
-        "summary": "La 2022 Auxetic et la 2024 Auxetic 2.0 se jouent presque pareil : mêmes 300 g, même tamis de 645 cm². La 2024 apporte un toucher plus précis et plus de stabilité sur balle lourde, mais la 2022 soldée coûte 50 à 70 € de moins. La 2026 s'adresse à ceux qui veulent la toute dernière évolution de stabilité.",
-        "bestValueYear": 2022,
+        "title": "2022, 2024 ou 2026 : laquelle choisir ?",
+        "summary": "La 2024 (Auxetic 2.0) a gagné en stabilité mais son swingweight a grimpé à 330, la rendant plus exigeante en maniabilité. La 2026 (Hy-Bor) garde ce profil stable (SW 329, 60 RA) avec un toucher plus franc. À 139,95 € – 149 €, les 2022 et 2024 soldées offrent le meilleur rapport qualité/prix.",
+        "bestValueYear": 2024,
         "points": [
-          "Budget serré : la 2022 soldée offre l'essentiel de la 2024 pour environ 30 % moins cher.",
-          "Sensations : la 2024 est plus filtrante et précise sur les frappes à plat.",
-          "Dernière tech : la 2026 améliore la stabilité au centre du tamis."
+          "Meilleur prix : la 2022 descend à 139,95 € chez Tennis-Point et reste la plus maniable (SW 323).",
+          "Meilleur compromis : la 2024 à 149 € chez Extreme Tennis (-46 %) offre presque la même base que la 2026.",
+          "Dernière génération : la 2026 ajoute les fibres Hy-Bor (carbone + bore) pour un contact plus direct."
         ]
       },
       "vintages": [
-        { "year": 2022, "label": "Auxetic (2022)", "weight": 300, "headSize": 645, "pattern": "16x19", "balance": "315 mm (6 pts HL)", "stiffness": 62, "swingweight": 318, "technologies": ["Auxetic", "Graphene 360+", "Hydrosorb Pro"], "ratings": { "power": 7.5, "control": 8, "spin": 7, "comfort": 7.5 } },
-        { "year": 2024, "label": "Auxetic 2.0 (2024)", "weight": 300, "headSize": 645, "pattern": "16x19", "balance": "315 mm (6 pts HL)", "stiffness": 62, "swingweight": 322, "technologies": ["Auxetic 2.0", "Graphene 360+", "Hydrosorb Pro"], "ratings": { "power": 7.5, "control": 8.5, "spin": 7, "comfort": 8 } },
-        { "year": 2026, "label": "Nouvelle génération (2026)", "weight": 300, "headSize": 645, "pattern": "16x19", "balance": "320 mm (5 pts HL)", "stiffness": 63, "swingweight": 326, "technologies": ["Auxetic 2.0", "Graphene 360+", "Stabilité renforcée"], "ratings": { "power": 8, "control": 8.5, "spin": 7.5, "comfort": 8 } }
+        {
+          "year": 2022,
+          "label": "Auxetic (2022)",
+          "weight": 300,
+          "headSize": 645,
+          "pattern": "16x19",
+          "balance": "320 mm (7 pts HL)",
+          "stiffness": 62,
+          "swingweight": 323,
+          "technologies": ["Auxetic", "Graphene Inside", "Power Grommets"],
+          "ratings": { "power": 7.8, "control": 8.0, "spin": 7.8, "comfort": 8.0 }
+        },
+        {
+          "year": 2024,
+          "label": "Auxetic 2.0 (2024)",
+          "weight": 300,
+          "headSize": 645,
+          "pattern": "16x19",
+          "balance": "320 mm (7 pts HL)",
+          "stiffness": 60,
+          "swingweight": 330,
+          "technologies": ["Auxetic 2.0", "Graphene Inside", "Soft Butt Cap"],
+          "ratings": { "power": 8.0, "control": 8.2, "spin": 8.0, "comfort": 8.3 }
+        },
+        {
+          "year": 2026,
+          "label": "Hy-Bor (2026)",
+          "weight": 300,
+          "headSize": 645,
+          "pattern": "16x19",
+          "balance": "320 mm (7 pts HL)",
+          "stiffness": 60,
+          "swingweight": 329,
+          "technologies": ["Hy-Bor (Carbone + Bore)", "Auxetic 2.0", "Directional Drilling"],
+          "ratings": { "power": 8.2, "control": 8.4, "spin": 8.0, "comfort": 8.2 }
+        }
       ],
       "offers": [
-        { "merchant": "Extreme Tennis", "year": 2022, "stock": "En stock – Grip 2, 3", "price": 139, "url": "https://www.extremetennis.fr/" },
-        { "merchant": "Tennis-Point", "year": 2022, "stock": "En stock – Grip 2, 3, 4", "price": 149.95, "url": "https://www.tennis-point.fr/" },
-        { "merchant": "Decathlon", "year": 2024, "stock": "Grip 3 uniquement", "price": 199, "url": "https://www.decathlon.fr/" },
-        { "merchant": "Tennis Warehouse Europe", "year": 2024, "stock": "En stock – Grip 1 à 4", "price": 209, "url": "https://www.tenniswarehouse-europe.com/" },
-        { "merchant": "Amazon", "year": 2026, "stock": "En stock – Grip 2, 3", "price": 259.9, "url": "https://www.amazon.fr/" }
+        { "merchant": "Tennis-Point", "year": 2022, "stock": "Promo Black Deal – Cordée", "price": 139.95, "url": "https://www.tennis-point.fr/collections/aktion-head-speed" },
+        { "merchant": "Extreme Tennis", "year": 2024, "stock": "En stock – -46 % (PPC 280 €)", "price": 149.00, "url": "https://www.extreme-tennis.fr/fr/" },
+        { "merchant": "Extreme Tennis", "year": 2026, "stock": "Promo -33 % (PPC 280 €)", "price": 186.55, "url": "https://www.extreme-tennis.fr/fr/head-speed/22656-raquette-head-speed-mp-2026-300g.html" },
+        { "merchant": "Tennis Warehouse Europe", "year": 2026, "stock": "En stock – -32 % (PPC 280 €)", "price": 187.90, "url": "https://www.tenniswarehouse-europe.com/catpage-HEADRAC-EN.html" }
       ]
     },
     {
@@ -38,29 +81,61 @@
       "name": "Pure Aero",
       "category": "raquettes",
       "surfaces": [],
-      "tagline": "Le lift à l'état pur, la raquette de Rafa Nadal",
-      "accent": "#1E293B",
-      "seoDescription": "Babolat Pure Aero : comparatif 2019 vs 2023, effet lift, rigidité, contrôle et meilleur prix du moment.",
+      "tagline": "La référence du lift moderne et des trajectoires bombées",
+      "accent": "#CA8A04",
+      "seoDescription": "Babolat Pure Aero : comparatif 2019, 2023 et 2026 (Gen 9). Effet lift, rigidité RA, contrôle et meilleur prix du moment.",
       "verdict": {
-        "title": "Pourquoi prendre la 2019 plutôt que la 2023 ?",
-        "summary": "La 2023 est plus souple, plus confortable et plus précise grâce au Spin Cavity et au FSI Power. La 2019 reste très rigide et explosive : idéale pour un lifteur qui veut de la puissance à petit prix, mais moins ménageante pour le bras.",
-        "bestValueYear": 2019,
+        "title": "2019, 2023 ou 2026 : laquelle choisir ?",
+        "summary": "La 2023 a corrigé le principal défaut de la 2019 : grâce aux fibres de lin (NF²-Tech) et à un plan de cordage plus resserré, elle est plus confortable (65 RA) et plus précise. La 2026 (Gen 9) retravaille l'aérodynamique du cœur pour accélérer encore la tête de raquette.",
+        "bestValueYear": 2023,
         "points": [
-          "Confort bras : la 2023 gagne nettement avec 67 RA contre 71.",
-          "Contrôle : la 2023 est plus stable et moins aléatoire sur longues balles.",
-          "Prix : la 2019 en fin de série descend sous 130 €."
+          "Confort & contrôle : la 2023 est nettement plus douce et prévisible que la 2019.",
+          "Nouveauté 2026 : cœur affiné pour moins de traînée d'air et NF²-Tech 2.0.",
+          "Prix : la 2026 se trouve déjà autour de 201,91 € chez Tennis Warehouse Europe."
         ]
       },
       "vintages": [
-        { "year": 2019, "label": "Pure Aero (2019)", "weight": 300, "headSize": 645, "pattern": "16x19", "balance": "320 mm (4 pts HL)", "stiffness": 71, "swingweight": 320, "technologies": ["FSI Spin", "Woofer System", "Cortex Pure Feel"], "ratings": { "power": 8.5, "control": 6.5, "spin": 9, "comfort": 6 } },
-        { "year": 2023, "label": "Pure Aero (2023)", "weight": 300, "headSize": 645, "pattern": "16x19", "balance": "320 mm (4 pts HL)", "stiffness": 67, "swingweight": 322, "technologies": ["SWX Pure Aero", "Spin Cavity", "FSI Power", "Carbon Aero"], "ratings": { "power": 8.5, "control": 7.5, "spin": 9.5, "comfort": 7.5 } }
+        {
+          "year": 2019,
+          "label": "Pure Aero (2019)",
+          "weight": 300,
+          "headSize": 645,
+          "pattern": "16x19",
+          "balance": "320 mm (7 pts HL)",
+          "stiffness": 67,
+          "swingweight": 324,
+          "technologies": ["Aeromodular 3", "FSI Spin", "Cortex Pure Feel"],
+          "ratings": { "power": 8.6, "control": 7.0, "spin": 9.2, "comfort": 6.8 }
+        },
+        {
+          "year": 2023,
+          "label": "Pure Aero (2023)",
+          "weight": 300,
+          "headSize": 645,
+          "pattern": "16x19",
+          "balance": "320 mm (7 pts HL)",
+          "stiffness": 65,
+          "swingweight": 322,
+          "technologies": ["NF²-Tech (Lin)", "Aeromodular 3", "FSI Spin resserré", "SWX Pure Feel"],
+          "ratings": { "power": 8.5, "control": 7.8, "spin": 9.3, "comfort": 7.8 }
+        },
+        {
+          "year": 2026,
+          "label": "Pure Aero Gen 9 (2026)",
+          "weight": 300,
+          "headSize": 645,
+          "pattern": "16x19",
+          "balance": "320 mm (7 pts HL)",
+          "stiffness": 66,
+          "swingweight": 320,
+          "technologies": ["Aeromodular 4", "NF²-Tech 2.0", "FSI Spin", "Woofer System"],
+          "ratings": { "power": 8.6, "control": 8.0, "spin": 9.5, "comfort": 8.0 }
+        }
       ],
       "offers": [
-        { "merchant": "Tennis-Point", "year": 2019, "stock": "Grip 2 uniquement", "price": 129.95, "url": "https://www.tennis-point.fr/" },
-        { "merchant": "Extreme Tennis", "year": 2023, "stock": "En stock – Grip 2, 3", "price": 189, "url": "https://www.extremetennis.fr/" },
-        { "merchant": "Decathlon", "year": 2023, "stock": "En stock – Grip 2, 3, 4", "price": 219.99, "url": "https://www.decathlon.fr/" },
-        { "merchant": "Tennis Warehouse Europe", "year": 2023, "stock": "En stock – Grip 1 à 4", "price": 229, "url": "https://www.tenniswarehouse-europe.com/" },
-        { "merchant": "Amazon", "year": 2023, "stock": "En stock – Grip 3", "price": 239, "url": "https://www.amazon.fr/" }
+        { "merchant": "Tennis Warehouse Europe", "year": 2026, "stock": "En stock – Grip 1 à 4", "price": 201.91, "url": "https://www.tenniswarehouse-europe.com/catpage-BABPA22PP-EN.html" },
+        { "merchant": "Tennis-Point", "year": 2026, "stock": "Collection Pure Aero", "price": 219.95, "url": "https://www.tennis-point.fr/collections/aktion-babolat-pure-aero-collection" },
+        { "merchant": "Extreme Tennis", "year": 2026, "stock": "En stock – Non cordée", "price": 229.90, "url": "https://www.extreme-tennis.fr/fr/" }
       ]
     },
     {
@@ -69,61 +144,329 @@
       "name": "Blade 98 16x19",
       "category": "raquettes",
       "surfaces": [],
-      "tagline": "Les sensations à l'état brut pour joueurs complets",
-      "accent": "#0F172A",
-      "seoDescription": "Wilson Blade 98 16x19 : comparatif v7, v8 et v9, sensations, stabilité, profil de joueur et meilleur prix.",
+      "tagline": "Précision chirurgicale et toucher connecté pour joueurs complets",
+      "accent": "#0F766E",
+      "seoDescription": "Wilson Blade 98 16x19 : comparatif v7, v8 et v9. Sensations, stabilité, rigidité RA et meilleur prix du moment.",
       "verdict": {
-        "title": "Pourquoi prendre la v8 plutôt que la v9 ?",
-        "summary": "La v9 apporte FeelFlex pour plus de puissance et de tolérance. La v8 reste plus filtrante et réputée pour son toucher, et on la trouve soldée. La v7 est plus rigide et exigeante : pour puristes avec un bras solide.",
-        "bestValueYear": 2021,
+        "title": "v7, v8 ou v9 : laquelle choisir ?",
+        "summary": "La v9 (2024) corrige le léger manque de répondant de la v8 grâce à la technologie StableFeel : elle est plus vive, plus stable sur balle lourde tout en gardant un flex doux (62 RA). À 149,95 € en promo chez Tennis-Point, la v9 est actuellement l'affaire imbattable.",
+        "bestValueYear": 2024,
         "points": [
-          "Toucher pur : la v8 reste la référence des joueurs de fond de court complets.",
-          "Tolérance : la v9 a un meilleur point d'impact et plus de puissance.",
-          "Prix : la v8 est souvent 30 % moins chère que la v9."
+          "Meilleur plan actuel : la v9 est bradée à 149,95 € (-46 %) chez Tennis-Point.",
+          "Sensations : la v9 est plus ferme et plus réactive que la v8, sans sacrifier le confort.",
+          "Profil : tamis 632 cm² (98 in²) et 305 g, pensée pour les joueurs intermédiaires confirmés à compétiteurs."
         ]
       },
       "vintages": [
-        { "year": 2019, "label": "Blade 98 v7 (2019)", "weight": 305, "headSize": 645, "pattern": "16x19", "balance": "320 mm (4 pts HL)", "stiffness": 62, "swingweight": 318, "technologies": ["Braided Graphite + Basalt", "Countervail"], "ratings": { "power": 6.5, "control": 9, "spin": 7, "comfort": 7 } },
-        { "year": 2021, "label": "Blade 98 v8 (2021)", "weight": 305, "headSize": 632, "pattern": "16x19", "balance": "320 mm (4 pts HL)", "stiffness": 62, "swingweight": 322, "technologies": ["FreeFlex", "Braided Graphite + Basalt", "Dynamic Response System"], "ratings": { "power": 7, "control": 9, "spin": 7, "comfort": 7.5 } },
-        { "year": 2024, "label": "Blade 98 v9 (2024)", "weight": 305, "headSize": 632, "pattern": "16x19", "balance": "320 mm (4 pts HL)", "stiffness": 63, "swingweight": 324, "technologies": ["FeelFlex", "Dynamic Response System", "Braided Graphite + Basalt"], "ratings": { "power": 7.5, "control": 9, "spin": 7.5, "comfort": 8 } }
+        {
+          "year": 2019,
+          "label": "Blade 98 v7 (2019)",
+          "weight": 305,
+          "headSize": 632,
+          "pattern": "16x19",
+          "balance": "320 mm (7 pts HL)",
+          "stiffness": 62,
+          "swingweight": 327,
+          "technologies": ["FeelFlex", "Braided Graphite + Basalt"],
+          "ratings": { "power": 7.2, "control": 8.8, "spin": 7.8, "comfort": 8.0 }
+        },
+        {
+          "year": 2021,
+          "label": "Blade 98 v8 (2021)",
+          "weight": 305,
+          "headSize": 632,
+          "pattern": "16x19",
+          "balance": "320 mm (7 pts HL)",
+          "stiffness": 61,
+          "swingweight": 320,
+          "technologies": ["FORTYFIVE°", "DirectConnect", "Top Grip Taper"],
+          "ratings": { "power": 7.3, "control": 8.9, "spin": 7.9, "comfort": 8.2 }
+        },
+        {
+          "year": 2024,
+          "label": "Blade 98 v9 (2024)",
+          "weight": 305,
+          "headSize": 632,
+          "pattern": "16x19",
+          "balance": "320 mm (7 pts HL)",
+          "stiffness": 62,
+          "swingweight": 326,
+          "technologies": ["StableFeel", "FORTYFIVE°", "DirectConnect", "Click-and-Go"],
+          "ratings": { "power": 7.7, "control": 9.1, "spin": 8.1, "comfort": 8.3 }
+        }
       ],
       "offers": [
-        { "merchant": "Tennis Warehouse Europe", "year": 2021, "stock": "Grip 2, 3 – Stock limité", "price": 144, "url": "https://www.tenniswarehouse-europe.com/" },
-        { "merchant": "Extreme Tennis", "year": 2024, "stock": "En stock – Grip 2, 3, 4", "price": 214, "url": "https://www.extremetennis.fr/" },
-        { "merchant": "Tennis-Point", "year": 2024, "stock": "En stock – Grip 1 à 4", "price": 219.95, "url": "https://www.tennis-point.fr/" },
-        { "merchant": "Decathlon", "year": 2024, "stock": "Grip 3 uniquement", "price": 229, "url": "https://www.decathlon.fr/" },
-        { "merchant": "Amazon", "year": 2024, "stock": "En stock – Grip 2, 3", "price": 239, "url": "https://www.amazon.fr/" }
+        { "merchant": "Tennis-Point", "year": 2024, "stock": "Promo -46 % (PPC 280 €)", "price": 149.95, "url": "https://www.tennis-point.fr/" },
+        { "merchant": "Tennis Warehouse Europe", "year": 2024, "stock": "En stock – Grip 2, 3, 4", "price": 189.90, "url": "https://www.tenniswarehouse-europe.com/" },
+        { "merchant": "Extreme Tennis", "year": 2024, "stock": "En stock – Non cordée", "price": 199.90, "url": "https://www.extreme-tennis.fr/fr/" }
       ]
     },
     {
-      "slug": "asics-gel-resolution",
-      "brand": "Asics",
-      "name": "Gel-Resolution 9 vs Gel-Resolution X",
-      "category": "chaussures",
-      "surfaces": ["Toutes surfaces", "Terre battue"],
-      "tagline": "La chaussure de stabilité des joueurs de fond de court",
-      "accent": "#16A34A",
-      "seoDescription": "Asics Gel-Resolution 9 vs Gel-Resolution X : comparatif amorti, maintien latéral, durabilité All Court / Terre battue et meilleur prix.",
+      "slug": "babolat-pure-drive",
+      "brand": "Babolat",
+      "name": "Pure Drive",
+      "category": "raquettes",
+      "surfaces": [],
+      "tagline": "Puissance explosive, tolérance et maniabilité au service",
+      "accent": "#2563EB",
+      "seoDescription": "Babolat Pure Drive : comparatif 2021 vs 2025 (Gen 11). Puissance, rigidité RA, confort et meilleur prix du moment.",
       "verdict": {
-        "title": "Pourquoi prendre la Resolution 9 plutôt que la X ?",
-        "summary": "La Resolution X offre un amorti plus généreux et une semelle plus durable sur dur. La 9 reste très stable, plus légère et nettement moins chère. Sur terre battue, les deux accrochent bien, avec un léger avantage de glisse contrôlée à la X.",
-        "bestValueYear": 2023,
+        "title": "2021 ou 2025 (Gen 11) : laquelle choisir ?",
+        "summary": "La Pure Drive 2025 (11e génération) baisse légèrement en rigidité (69 RA contre 71) et intègre le NF²-Tech 2.0 (fibres de lin) pour filtrer les vibrations. Elle reste une machine à puissance et à aces, mais plus agréable pour le bras que la 2021.",
+        "bestValueYear": 2025,
         "points": [
-          "Amorti : la X est plus confortable pour les gros volumes de jeu.",
-          "Durabilité : la X résiste mieux sur dur (AHAR+ sur les zones d'usure).",
-          "Prix : la 9 est jusqu'à 60 € moins chère."
+          "Confort en progrès : 69 RA et fibres de lin sur la 2025, moins sèche à l'impact que la 2021.",
+          "Maniabilité : swingweight de 317 (cordée), très rapide au service et en retour.",
+          "Prix : la 2025 est déjà en promo à 189 € chez Tennis Warehouse Europe (au lieu de 269,95 €)."
         ]
       },
       "vintages": [
-        { "year": 2023, "label": "Gel-Resolution 9 (2023)", "weight": 360, "balance": "Drop 10 mm", "technologies": ["FF Blast", "Twistruss", "AHAR", "Gel talon"], "ratings": { "power": 7, "control": 8.5, "spin": 7, "comfort": 7.5 }, "shoe": { "cushioning": 7.5, "lateral": 9, "durabilityHard": 7.5, "durabilityClay": 8.5 } },
-        { "year": 2025, "label": "Gel-Resolution X (2025)", "weight": 375, "balance": "Drop 10 mm", "technologies": ["FF Blast+ ECO", "Twistruss", "AHAR+", "Gel talon"], "ratings": { "power": 7, "control": 8.5, "spin": 7, "comfort": 8.5 }, "shoe": { "cushioning": 8.5, "lateral": 9, "durabilityHard": 8.5, "durabilityClay": 9 } }
+        {
+          "year": 2021,
+          "label": "Pure Drive Gen 10 (2021)",
+          "weight": 300,
+          "headSize": 645,
+          "pattern": "16x19",
+          "balance": "320 mm (7 pts HL)",
+          "stiffness": 71,
+          "swingweight": 320,
+          "technologies": ["HTR System", "SWX Pure Feel", "FSI Power", "Elliptic Frame"],
+          "ratings": { "power": 9.2, "control": 7.2, "spin": 8.2, "comfort": 6.8 }
+        },
+        {
+          "year": 2025,
+          "label": "Pure Drive Gen 11 (2025)",
+          "weight": 300,
+          "headSize": 645,
+          "pattern": "16x19",
+          "balance": "320 mm (7 pts HL)",
+          "stiffness": 69,
+          "swingweight": 317,
+          "technologies": ["NF²-Tech 2.0 (Lin)", "HTR System", "FSI Power", "Elliptic Frame"],
+          "ratings": { "power": 9.3, "control": 7.6, "spin": 8.4, "comfort": 7.7 }
+        }
       ],
       "offers": [
-        { "merchant": "Tennis-Point", "year": 2023, "stock": "Pointures 40 à 46", "price": 94.95, "url": "https://www.tennis-point.fr/" },
-        { "merchant": "Extreme Tennis", "year": 2023, "stock": "Pointures 41 à 45", "price": 109, "url": "https://www.extremetennis.fr/" },
-        { "merchant": "Decathlon", "year": 2025, "stock": "Pointures 42, 43, 44", "price": 149.99, "url": "https://www.decathlon.fr/" },
-        { "merchant": "Tennis Warehouse Europe", "year": 2025, "stock": "Pointures 39 à 49", "price": 154.95, "url": "https://www.tenniswarehouse-europe.com/" },
-        { "merchant": "Amazon", "year": 2025, "stock": "Pointures 42 à 45", "price": 159, "url": "https://www.amazon.fr/" }
+        { "merchant": "Tennis Warehouse Europe", "year": 2025, "stock": "En promo – PPC 269,95 €", "price": 189.00, "url": "https://www.tenniswarehouse-europe.com/learning_center/gear_guides/tennis_rackets/best_babolat_racket_for_me.html" },
+        { "merchant": "Tennis-Point", "year": 2025, "stock": "En stock – Grip 2, 3, 4", "price": 199.95, "url": "https://www.tennis-point.fr/collections/raquettes-de-tennis-babolat" },
+        { "merchant": "Extreme Tennis", "year": 2025, "stock": "En stock – Non cordée", "price": 204.90, "url": "https://www.extreme-tennis.fr/fr/" }
+      ]
+    },
+    {
+      "slug": "yonex-ezone-100",
+      "brand": "Yonex",
+      "name": "EZONE 100",
+      "category": "raquettes",
+      "surfaces": [],
+      "tagline": "Puissance facile, grand sweet spot Isometric et confort premium",
+      "accent": "#0284C7",
+      "seoDescription": "Yonex EZONE 100 : comparatif 2022 (7e gén.) vs 2025 (8e gén.). Puissance, confort Minolon, rigidité RA et meilleur prix.",
+      "verdict": {
+        "title": "2022 (7e gén.) ou 2025 (8e gén.) : laquelle choisir ?",
+        "summary": "La 2025 (8e génération) ajoute les fibres Minolon et un profil légèrement élargi en tête : elle est plus tolérante, plus douce sur les vibrations et encore plus facile à jouer que la 2022. Si tu trouves une 2022 soldée sous 190 €, elle reste excellente ; sinon la 2025 à 244,90 € est la nouvelle référence des raquettes puissantes confortables.",
+        "bestValueYear": 2025,
+        "points": [
+          "Confort rare pour une raquette puissante : fibres Minolon + VDM malgré 68 RA.",
+          "Tolérance : cadre Isometric au sweet spot plus large que la moyenne en 645 cm².",
+          "Meilleur prix 2025 : 244,90 € chez Tennis Warehouse Europe (coloris Blast Blue)."
+        ]
+      },
+      "vintages": [
+        {
+          "year": 2022,
+          "label": "EZONE 100 7e gén. (2022)",
+          "weight": 300,
+          "headSize": 645,
+          "pattern": "16x19",
+          "balance": "320 mm (7 pts HL)",
+          "stiffness": 67,
+          "swingweight": 318,
+          "technologies": ["2G-Namd Speed", "Isometric", "VDM", "Aero Shape"],
+          "ratings": { "power": 8.7, "control": 8.0, "spin": 8.3, "comfort": 8.2 }
+        },
+        {
+          "year": 2025,
+          "label": "EZONE 100 8e gén. (2025)",
+          "weight": 300,
+          "headSize": 645,
+          "pattern": "16x19",
+          "balance": "320 mm (7 pts HL)",
+          "stiffness": 68,
+          "swingweight": 316,
+          "technologies": ["Minolon", "2G-Namd Speed", "Isometric", "VDM"],
+          "ratings": { "power": 9.0, "control": 8.1, "spin": 8.5, "comfort": 8.6 }
+        }
+      ],
+      "offers": [
+        { "merchant": "Tennis Warehouse Europe", "year": 2025, "stock": "Blast Blue – Grip 2, 3, 4 (PPC 279,90 €)", "price": 244.90, "url": "https://www.tenniswarehouse-europe.com/catpage-YEZAR-FR.html" },
+        { "merchant": "Extreme Tennis", "year": 2025, "stock": "En stock – Grip 2, 3 (PPC 279,90 €)", "price": 268.90, "url": "https://www.extreme-tennis.fr/fr/yonex-ezone/20331-raquette-yonex-ezone-100-2025-300g.html" },
+        { "merchant": "Tennis-Point", "year": 2025, "stock": "Édition Espresso Brown – Non cordée", "price": 275.95, "url": "https://www.tennis-point.fr/products/yonex-ezone-100-2026-espresso-brown-raquette-de-competition-non-cordee-p0000011190201" }
+      ]
+    },
+    {
+      "slug": "yonex-vcore-100",
+      "brand": "Yonex",
+      "name": "VCORE 100",
+      "category": "raquettes",
+      "surfaces": [],
+      "tagline": "Prise d'effet chirurgicale, confort doux et stabilité en fond de court",
+      "accent": "#DC2626",
+      "seoDescription": "Yonex VCORE 100 : comparatif 2021, 2023 (7e gén.) et 2026 (8e gén.). Prise d'effet, rigidité RA, swingweight et meilleur prix.",
+      "verdict": {
+        "title": "2023 (7e gén.) ou 2026 (8e gén.) : laquelle choisir ?",
+        "summary": "La VCORE 100 2026 (8e gén., Ruby Red) retravaille le profil du cadre pour gagner en stabilité (SW 326) et en lourdeur de balle tout en gardant un toucher moelleux (65 RA). La 2023 reste légèrement plus maniable et plus abordable quand on la trouve en fin de série.",
+        "bestValueYear": 2023,
+        "points": [
+          "Alternative à la Pure Aero : même accès au lift, mais toucher plus doux et contrôle supérieur.",
+          "2026 (8e gén.) : plus stable sur balles rapides grâce à un swingweight de 326.",
+          "Prix : dès 247,95 € chez Tennis-Point (268,90 € chez TWE) pour la 2026."
+        ]
+      },
+      "vintages": [
+        {
+          "year": 2021,
+          "label": "VCORE 100 6e gén. (2021)",
+          "weight": 300,
+          "headSize": 645,
+          "pattern": "16x19",
+          "balance": "320 mm (7 pts HL)",
+          "stiffness": 66,
+          "swingweight": 323,
+          "technologies": ["2G-Namd Flex Force", "Isometric", "Aero Trench", "VDM"],
+          "ratings": { "power": 8.4, "control": 7.9, "spin": 8.9, "comfort": 7.9 }
+        },
+        {
+          "year": 2023,
+          "label": "VCORE 100 7e gén. (2023)",
+          "weight": 300,
+          "headSize": 645,
+          "pattern": "16x19",
+          "balance": "320 mm (7 pts HL)",
+          "stiffness": 64,
+          "swingweight": 322,
+          "technologies": ["Silicone Oil Grommets", "2G-Namd Flex Force", "Isometric", "VDM"],
+          "ratings": { "power": 8.6, "control": 8.0, "spin": 9.2, "comfort": 8.3 }
+        },
+        {
+          "year": 2026,
+          "label": "VCORE 100 8e gén. (2026)",
+          "weight": 300,
+          "headSize": 645,
+          "pattern": "16x19",
+          "balance": "320 mm (7 pts HL)",
+          "stiffness": 65,
+          "swingweight": 326,
+          "technologies": ["2G-Namd Flex Force", "Profil redessiné 2026", "Isometric", "Silicone Oil Grommets"],
+          "ratings": { "power": 8.8, "control": 8.2, "spin": 9.4, "comfort": 8.4 }
+        }
+      ],
+      "offers": [
+        { "merchant": "Tennis-Point", "year": 2026, "stock": "Ruby Red – Non cordée", "price": 247.95, "url": "https://www.tennis-point.fr/products/yonex-vcore-100-2026-raquette-de-competition-non-cordee-p0000004731201" },
+        { "merchant": "Tennis Warehouse Europe", "year": 2026, "stock": "En stock – Ruby Red (300 g)", "price": 268.90, "url": "https://www.tenniswarehouse-europe.com/Raquette_Yonex_VCORE_100_Ruby_Red_300_g/descpageRCYONEX-YVC106-FR.html" },
+        { "merchant": "Extreme Tennis", "year": 2026, "stock": "PPC 299 € – Stock variable", "price": 269.86, "url": "https://www.extreme-tennis.fr/fr/yonex-vcore/22641-raquette-yonex-vcore-100-2026-300g.html" }
+      ]
+    },
+    {
+      "slug": "wilson-clash-100",
+      "brand": "Wilson",
+      "name": "Clash 100",
+      "category": "raquettes",
+      "surfaces": [],
+      "tagline": "La reine absolue du confort bras, ultra-souple et maniable",
+      "accent": "#991B1B",
+      "seoDescription": "Wilson Clash 100 : comparatif v2 vs v3 (2025). Confort bras (54 RA), poids 295 g, tolérance et meilleur prix du moment.",
+      "verdict": {
+        "title": "Clash 100 v2 ou v3 (2025) : laquelle choisir ?",
+        "summary": "La v3 (2025) descend à un flex record de 54 RA tout en gagnant en stabilité grâce au Hit Stabilizer et à la techno SI3D : elle retrouve le moelleux de la v1 avec plus de répondant que la v2. En promo autour de 168,90 € – 174,95 €, la v3 est le premier choix si tu as mal au coude ou à l'épaule.",
+        "bestValueYear": 2025,
+        "points": [
+          "Protection du bras : 54 RA mesurés en labo, la raquette grand public la plus souple du marché.",
+          "Ultra-maniable : 295 g non cordée et swingweight autour de 309, accessible dès le niveau débutant-intermédiaire.",
+          "Bon plan : la v3 est déjà à -30 % (168,90 € – 174,95 €) chez Extreme Tennis et TWE."
+        ]
+      },
+      "vintages": [
+        {
+          "year": 2022,
+          "label": "Clash 100 v2 (2022)",
+          "weight": 295,
+          "headSize": 645,
+          "pattern": "16x19",
+          "balance": "310 mm (10 pts HL)",
+          "stiffness": 57,
+          "swingweight": 312,
+          "technologies": ["FORTYFIVE°", "Agiplast", "Horizontal/Vertical Bending"],
+          "ratings": { "power": 8.3, "control": 7.7, "spin": 8.1, "comfort": 9.1 }
+        },
+        {
+          "year": 2025,
+          "label": "Clash 100 v3 (2025)",
+          "weight": 295,
+          "headSize": 645,
+          "pattern": "16x19",
+          "balance": "310 mm (10 pts HL)",
+          "stiffness": 54,
+          "swingweight": 309,
+          "technologies": ["SI3D", "Hit Stabilizer", "Click & Go", "Agiplast"],
+          "ratings": { "power": 8.6, "control": 7.9, "spin": 8.3, "comfort": 9.5 }
+        }
+      ],
+      "offers": [
+        { "merchant": "Extreme Tennis", "year": 2025, "stock": "v3 Reverse – -32 % (L2)", "price": 168.90, "url": "https://www.extreme-tennis.fr/fr/" },
+        { "merchant": "Tennis Warehouse Europe", "year": 2025, "stock": "En stock – -31 % (PPC 250 €)", "price": 171.90, "url": "https://www.tenniswarehouse-europe.com/Wilson_Clash_100_V30_Racket/descpageRCWILSON-WC10V3-EN.html" },
+        { "merchant": "Extreme Tennis", "year": 2025, "stock": "En stock – -30 % (PPC 250 €)", "price": 174.95, "url": "https://www.extreme-tennis.fr/fr/" },
+        { "merchant": "Decathlon", "year": 2025, "stock": "Marketplace Decathlon", "price": 199.00, "url": "https://www.decathlon.fr/p/mp/raquette-de-tennis-wilson-clash-100-v3-0/0a57ad34-299d-4064-b1b6-02e46643b790/c1" }
+      ]
+    },
+    {
+      "slug": "head-radical-mp",
+      "brand": "Head",
+      "name": "Radical MP",
+      "category": "raquettes",
+      "surfaces": [],
+      "tagline": "Le couteau suisse orienté contrôle pour joueurs polyvalents",
+      "accent": "#EA580C",
+      "seoDescription": "Head Radical MP : comparatif 2023 Auxetic vs 2025 Auxetic 2.0. Tamis 632 cm², rigidité 66 RA, contrôle et meilleur prix.",
+      "verdict": {
+        "title": "Radical MP 2023 ou 2025 (Auxetic 2.0) : laquelle choisir ?",
+        "summary": "Sur le papier, les specs sont quasi identiques (300 g, tamis 632 cm², SW 323). La 2025 étend la technologie Auxetic 2.0 jusque dans le manche pour un ressenti plus doux et plus connecté à l'impact. La 2023 à 139,90 € (-50 %) reste une excellente affaire, mais la 2025 à 167,90 € chez TWE (-40 %) réduit fortement l'écart.",
+        "bestValueYear": 2023,
+        "points": [
+          "Meilleur prix : la 2023 est à 139,90 € (-50 %) chez Extreme Tennis en grip 2 et 3.",
+          "Mise à jour 2025 : Auxetic 2.0 dans le manche pour un toucher plus amorti, déjà soldée à 167,90 € chez TWE.",
+          "Profil : tamis 98 in² (632 cm²) plus précis qu'une Speed MP, mais plus facile à manier qu'une Blade 98."
+        ]
+      },
+      "vintages": [
+        {
+          "year": 2023,
+          "label": "Radical MP Auxetic (2023)",
+          "weight": 300,
+          "headSize": 632,
+          "pattern": "16x19",
+          "balance": "320 mm (7 pts HL)",
+          "stiffness": 65,
+          "swingweight": 323,
+          "technologies": ["Auxetic", "Sound Grommets", "Graphene Inside", "Variable Beam"],
+          "ratings": { "power": 7.6, "control": 8.5, "spin": 7.9, "comfort": 7.7 }
+        },
+        {
+          "year": 2025,
+          "label": "Radical MP Auxetic 2.0 (2025)",
+          "weight": 300,
+          "headSize": 632,
+          "pattern": "16x19",
+          "balance": "320 mm (7 pts HL)",
+          "stiffness": 66,
+          "swingweight": 323,
+          "technologies": ["Auxetic 2.0", "Sound Grommets", "Graphene Inside", "Variable Beam"],
+          "ratings": { "power": 7.7, "control": 8.6, "spin": 8.0, "comfort": 8.0 }
+        }
+      ],
+      "offers": [
+        { "merchant": "Extreme Tennis", "year": 2023, "stock": "En stock – Grip 2, 3 (-50 %)", "price": 139.90, "url": "https://www.extreme-tennis.fr/fr/" },
+        { "merchant": "Tennis Warehouse Europe", "year": 2025, "stock": "Promo -40 % (PPC 280 €)", "price": 167.90, "url": "https://www.tenniswarehouse-europe.com/Raquette_de_Tennis_HEAD_Radical_MP_2025/descpageRCHEAD-HRMP-FR.html" },
+        { "merchant": "Tennis-Point", "year": 2025, "stock": "En stock – Livraison 3-4 j", "price": 199.95, "url": "https://www.tennis-point.fr/products/head-radical-mp-2025-00607504503000-fr" }
       ]
     }
   ]
